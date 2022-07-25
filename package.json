@@ -5,7 +5,7 @@
   "license": "MIT",
   "exports": "./index.js",
   "types": "./index.d.ts",
-  "repository": "dbservices/scorpion-html",
+  "repository": "dbspt/scorpion-html",
   "keywords": [
     "html",
     "template",
