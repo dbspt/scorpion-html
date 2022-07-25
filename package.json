@@ -1,0 +1,35 @@
+{
+  "name": "@dbspt/scorpion-html",
+  "version": "1.0.0",
+  "description": "Scorpion-core support pack",
+  "main": "index.ts",
+  "license": "MIT",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/@dbspt"
+  },
+  "scripts": {
+    "commit": "cz",
+    "clean": "rimraf ../scorpion-core/node_modules/@dbspt/scorpion-html",
+    "build": "npm run clean && tsc"
+  },
+  "author": {
+    "name": "Cléverson Sampaio",
+    "email": "cleverson@sampaio.dev.br"
+  },
+  "devDependencies": {
+    "@types/he": "^1.1.2",
+    "commitizen": "^4.2.5",
+    "cz-conventional-changelog": "^3.3.0",
+    "rimraf": "^3.0.2",
+    "typescript": "^4.7.4"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  },
+  "dependencies": {
+    "he": "^1.2.0",
+    "sanitize-xml-string": "^1.1.0"
+  }
+}
