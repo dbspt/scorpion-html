@@ -9,7 +9,7 @@
     "noImplicitAny": false,
     "skipLibCheck": true,
     "allowSyntheticDefaultImports": true,
-    "outDir": "../scorpion-core/node_modules/@dbspt/scorpion-html",
+    "outDir": "../scorpion-core/node_modules/@dbservices/scorpion-html",
     "rootDir": "./",
     "typeRoots": ["../node_modules/@types"],
     "types": ["node"]

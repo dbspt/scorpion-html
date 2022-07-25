@@ -6,7 +6,7 @@
   "license": "MIT",
   "scripts": {
     "commit": "cz",
-    "clean": "rimraf ../scorpion-core/node_modules/@dbspt/scorpion-html",
+    "clean": "rimraf ../scorpion-core/node_modules/@dbservices/scorpion-html",
     "build": "npm run clean && tsc"
   },
   "author": {
