@@ -1,22 +1,26 @@
 {
   "name": "@dbservices/scorpion-html",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Scorpion-core support pack",
   "license": "MIT",
   "exports": "./index.js",
   "types": "./index.d.ts",
-  "repository": "dbspt/scorpion-html",
   "keywords": [
     "html",
     "template",
     "template strings"
   ],
-  "bugs": "https://github.com/dbspt/scorpion-html/issues",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/dbspt/scorpion-html.git"
+  },
+  "bugs": {
+    "url": "https://github.com/dbspt/scorpion-html/issues"
+  },
   "homepage": "https://github.com/dbspt/scorpion-html#readme",
   "publishConfig": {
     "access": "public"
   },
-  "type": "module",
   "scripts": {
     "commit": "cz",
     "build": "tsc"
