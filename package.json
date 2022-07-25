@@ -2,12 +2,24 @@
   "name": "@dbservices/scorpion-html",
   "version": "1.0.0",
   "description": "Scorpion-core support pack",
-  "main": "index.ts",
   "license": "MIT",
+  "exports": "./index.js",
+  "types": "./index.d.ts",
+  "repository": "dbservices/scorpion-html",
+  "keywords": [
+    "html",
+    "template",
+    "template strings"
+  ],
+  "bugs": "https://github.com/dbspt/scorpion-html/issues",
+  "homepage": "https://github.com/dbspt/scorpion-html#readme",
+  "publishConfig": {
+    "access": "public"
+  },
+  "type": "module",
   "scripts": {
     "commit": "cz",
-    "clean": "rimraf ../scorpion-core/node_modules/@dbservices/scorpion-html",
-    "build": "npm run clean && tsc"
+    "build": "tsc"
   },
   "author": {
     "name": "Cléverson Sampaio",
