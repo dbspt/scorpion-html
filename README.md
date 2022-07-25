@@ -6,7 +6,7 @@ Scorpion-core support pack.
 ### Installation
 
 ```console
-$ npm install @dbspt/scorpion-html
+$ npm install @dbservices/scorpion-html
 ```
 
 ### Features, Usage, and Examples
@@ -14,7 +14,7 @@ $ npm install @dbspt/scorpion-html
 - **Use tagged template literals as an HTML template engine.** For example:
 
   ```typescript
-  import html from "@dbspt/scorpion-html";
+  import html from "@dbservices/scorpion-html";
 
   console.log(html`<p>${"Scorpion HTML"}</p>`); // => <p>Scorpion HTML</p>
   ```

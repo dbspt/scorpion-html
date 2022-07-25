@@ -1,12 +1,9 @@
 {
-  "name": "@dbspt/scorpion-html",
+  "name": "@dbservices/scorpion-html",
   "version": "1.0.0",
   "description": "Scorpion-core support pack",
   "main": "index.ts",
   "license": "MIT",
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com/@dbspt"
-  },
   "scripts": {
     "commit": "cz",
     "clean": "rimraf ../scorpion-core/node_modules/@dbspt/scorpion-html",
